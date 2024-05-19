@@ -66,7 +66,16 @@ module.exports = {
 					},
 				],
 			},
-			{ text: 'ブログ', link: '/blog/demo/' },
+			{
+				text: 'バックエンド',
+				link: '/backend/',
+                items: [
+                    {
+                        text: 'wordpress',
+                        link: '/pages/86598e/',
+                    }
+                ]
+			},
 			{ text: 'ITの単語', link: '/itWord/demo/' },
 			{ text: 'ITのテスト', link: '/itWord/demo/' },
 			{ text: '開発知識', link: '/development/demo/' },
